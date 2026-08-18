@@ -1,0 +1,4 @@
+
+accessxion	sequence_length	mean_pLDDT	highest_confidence_region	low_confidence_region	PAE_pattern	interpretation_limit
+P69905	142	98.06	Residues with consistently high pLDDT across the compact alpha-helical core	No major low-confidence region; inspect termini/loops for relatively lower local pLDDT	One predominantly coherent low-error block	Confidence supports the predicted fold and residue placement, but prediction alone cannot establish biological function, activity, binding, or physiological interactions
+
