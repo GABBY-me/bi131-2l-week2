@@ -102,8 +102,8 @@ Entry: P69905
 Status: Available
 
 AlphaFold Server:
-Job ID: [ACTUAL JOB ID]
-Status: [ACTUAL STATUS]
+Job ID: [5c0bd0b6a2b01e7c]
+Status: [COMPLETED]
 
 Route decision:
 AlphaFold DB was used as the common baseline structure.
@@ -112,3 +112,7 @@ FASTA/JSON verification:
 FASTA length: 142
 JSON length: 142
 Sequences identical: True
+AlphaFold Server:
+Job ID: 5c0bd0b6a2b01e7c
+Status: Completed
+Role: Live AlphaFold 3 prediction
