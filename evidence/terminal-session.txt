@@ -1,0 +1,117 @@
+Script started on 2026-08-04 22:44:24+08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~[00m$ [7mcd ~[27m
+[7mrm -rf bi131-2l-week1-data-evidence-results-scripts-[27m[Acd ~
+rm -rf bi131-2l-week1-data-evidence-results-scripts-
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~[00m$ [7mgit clone https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git[27m
+[7mcd bi131-2l-week1-data-evidence-results-scripts-[27m[Agit clone https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git
+cd bi131-2l-week1-data-evidence-results-scripts-
+[?2004lCloning into 'bi131-2l-week1-data-evidence-results-scripts-'...
+warning: You appear to have cloned an empty repository.
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mcp ~/README.md .[27mcp ~/README.md .
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ nano README.md
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;52H(B[0;7m[ Read 68 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                                           README.md                                                    [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[33m# BI131-2L Week 1 Reproducibility Activity[4d## Assigned dataset[6d[35m- [39m(B[mAssigned species: Homo sapiens[7d(B[0;1m[35m- [39m(B[mDatabase: NCBI Nucleotide[8d(B[0;1m[35m- [39m(B[mRetrieval date: August 4, 2026[9d(B[0;1m[35m- [39m(B[mSearch or Filter: Homo sapiens[10d(B[0;1m[35m- [39m(B[mSource URL: https://www.ncbi.nlm.nih.gov/[12d(B[0;1m[33m### Accessions[14d[35m- [39m(B[mAC006995.5[15d(B[0;1m[35m- [39m(B[mAC004770.1[16d(B[0;1m[35m- [39m(B[mAC145615.3[17d(B[0;1m[35m- [39m(B[mAF030453.1[18d(B[0;1m[35m- [39m(B[mAC148025.2[19d(B[0;1m[35m- [39m(B[mAC147570.3[20d(B[0;1m[35m- [39m(B[mAC145212.1[21d(B[0;1m[35m- [39m(B[mAC115106.2[22d(B[0;1m[35m- [39m(B[mAC1054185.5[23d(B[0;1m[35m- [39m(B[mAC018688.9[25d(B[0;1m[35m- [36m`data/sequences.fasta`[39m(B[m: (B[0;1m[35m[ I copied the fasta then paste on notepad][26d- [39m(B[m## Procedure[2d[?12l[?25h[?25l[1;70H(B[0;7m*[119G(B[m7[2;27r8[2dM[1;30r[3;1H[?12l[?25h[?25l[?12l[?25h[?25l[2;27r[27;1H
+[1;30r[2;1H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;25H(B[0;7mM-D(B[m DOS Format[29;49H(B[0;7mM-A(B[m Append[29;73H(B[0;7mM-B(B[m Backup File[29;97H(B[0;7m^T(B[m Browse[30d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[30;49H(B[0;7mM-P(B[m Prepend[30;73H(B[0;7m^Q(B[m Discard buffer[29;106H[A(B[0;7mWrite to File: README.md(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;70H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 68 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit config --global user.name "Your Name"[27m
+[7mgit config --global user.email "your_github_email@example.com"[27m[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ git config --global user.name "Your Name"
+git config --global user.email "your_github_email@example.com" [C[1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" [1P" i" r" o" n" m" a" n" t" 6" 8" @" g" m" a" i" l" ." c" o" m" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"P"[1P"G"a"b"b"[1P"[1P"[1P"A"B"B"Y"-"m"e"
+
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit config --global --list[27mgit config --global --list
+[?2004l[?1h=user.name=GABBY-me[m
+user.email=ironmant68@gmail.com[m
+[K[?1l>[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit add .[27m
+[7mgit commit -m "Initial commit"[27m[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ git add .
+git commit -m "Initial commit"
+[?2004l[main (root-commit) cb6308b] Initial commit
+ 1 file changed, 68 insertions(+)
+ create mode 100644 README.md
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lUsername for 'https://github.com': Ga ABBY-me
+Password for 'https://GABBY-me@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git/'
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit config --global user.name[27mgit config --global user.name
+[?2004lGABBY-me
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit remote -v[27mgit remote -v
+[?2004lorigin	https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git (fetch)
+origin	https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git (push)
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit ls-remote https://github.com/GABBY-me/bi131-[27m[7m2[27m[7ml-week1-data-evidence-results-scripts-.git[27m[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ git ls-remote https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit --version[27mgit --version
+[?2004lgit version 2.53.0
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mgit push -u origin main[27mgit push -u origin main
+[?2004lUsername for 'https://github.com': GABBT Y-me
+Password for 'https://GABBY-me@github.com': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 1.12 KiB | 571.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/GABBY-me/bi131-2l-week1-data-evidence-results-scripts-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mcd ~/bi131-2l-week1-data-evidence-results-script[27m[7ms[27m[7m-[27m[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ cd ~/bi131-2l-week1-data-evidence-results-scripts-
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mmkdir -p evidence[27mmkdir -p evidence
+[?2004l[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mscript evidence/terminal-session.txt[27mscript evidence/terminal-session.txt
+[?2004lScript started, output log file is 'evidence/terminal-session.txt'.
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mecho "Student number: 2024109040"[27m
+[7mdate[27m
+[7mpwd[27m
+[7mgit --version[27m
+[7mdocker --version[27m
+[7mls[27m
+[7mgit status[27m[A[A[A[A[A[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ echo "Student number: 2024109040"
+date
+pwd
+git --version
+docker --version
+ls
+git status
+[?2004lStudent number: 2024109040
+Tue Aug  4 23:30:03 PST 2026
+/home/lenovo/bi131-2l-week1-data-evidence-results-scripts-
+git version 2.53.0
+Docker version 29.6.2, build dfc4efb
+README.md  [0m[01;34mevidence[0m
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mevidence/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mexit[27mexit
+[?2004lexit
+Script done.
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mpwd[27m
+[7mls[27m
+[7mls evidence[27m[A[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ pwd
+ls
+ls evidence
+[?2004l/home/lenovo/bi131-2l-week1-data-evidence-results-scripts-
+README.md  [0m[01;34mevidence[0m
+terminal-session.txt
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mwhich script[27mwhich script
+[?2004l/usr/bin/script
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mecho "Student number: 2024109040"[27m
+[7mdate[27m
+[7mpwd[27m
+[7mgit status[27m[A[A[A]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ echo "Student number: 2024109040"
+date
+pwd
+git status
+[?2004lStudent number: 2024109040
+Tue Aug  4 23:32:48 PST 2026
+/home/lenovo/bi131-2l-week1-data-evidence-results-scripts-
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mevidence/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;lenovo@LAPTOP-VBKLK3OC: ~/bi131-2l-week1-data-evidence-results-scripts-[01;32mlenovo@LAPTOP-VBKLK3OC[00m:[01;34m~/bi131-2l-week1-data-evidence-results-scripts-[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2026-08-04 23:34:01+08:00 [COMMAND_EXIT_CODE="0"]
