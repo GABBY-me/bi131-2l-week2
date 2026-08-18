@@ -1,9 +1,15 @@
-Accession: P69905
-Protein name: Hemoglobin subunit alpha
-Gene: HBA1
-Organism: Homo sapiens
-Retrieval date: 2026-08-18
-Canonical sequence length: 142 aa
-Source URL: https://www.uniprot.org/uniprotkb/P69905
-Sequence checksum (SHA-256): [paste the output from sha256sum here]
-# -bi131-2l-week2
+# BI131-2L Week 2
+
+## Activity
+AlphaFold 3 Resource Audit and Reproducibility Activity
+
+## Purpose
+This repository documents the terminal environment, available computational resources, and the route decision for AlphaFold 3 structural prediction.
+
+## Student
+Student number: [2024109040]
+
+## Date
+2026-08-18
+
+
