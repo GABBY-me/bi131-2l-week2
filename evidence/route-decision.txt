@@ -1,0 +1,25 @@
+PREDICTION ROUTE DECISION
+
+Input accession: P69905
+Protein: Hemoglobin subunit alpha
+Organism: Homo sapiens
+Sequence length: 142 aa
+
+AlphaFold DB:
+Entry AF-P69905-F1 is available.
+AlphaFold DB is therefore the common baseline route.
+
+AlphaFold Server:
+A single live monomer submission is required by the laboratory instructions.
+The Server job status must be recorded from the actual AlphaFold Server submission.
+No repeated submissions will be made.
+
+Contingency:
+If the AlphaFold Server is unavailable or the job remains queued for the laboratory
+period, the instructor-provided contingency package will be used according to the
+laboratory instructions.
+
+IMPORTANT:
+Server job identifier, submission time, final status, downloaded archive filename,
+and contingency-package identifier must be filled from the actual observed result.
+They are intentionally not fabricated here.
