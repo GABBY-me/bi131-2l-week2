@@ -1,14 +1,18 @@
 {
-  "name": "P69905_ACCESSION",
+  "name": "2024109040_P69905",
   "sequences": [
     {
       "protein": {
-        "id": ["A"],
+        "id": [
+          "A"
+        ],
         "sequence": "MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR"
       }
     }
   ],
-  "modelSeeds": [1],
+  "modelSeeds": [
+    1
+  ],
   "dialect": "alphafold3",
   "version": 1
 }

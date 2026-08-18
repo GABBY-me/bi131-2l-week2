@@ -91,3 +91,24 @@ The official AlphaFold 3 documentation states that GPU resources are required fo
 CONCLUSION
 
 Full local AlphaFold 3 inference is not appropriate on this system. The current WSL2 environment does not provide a visible compatible NVIDIA GPU, and the available RAM is limited. The available disk space is substantial but does not overcome the GPU and memory limitations.
+
+ALPHAFOLD 3 ROUTE AUDIT
+
+Assigned accession:
+P69905
+
+AlphaFold DB:
+Entry: P69905
+Status: Available
+
+AlphaFold Server:
+Job ID: [ACTUAL JOB ID]
+Status: [ACTUAL STATUS]
+
+Route decision:
+AlphaFold DB was used as the common baseline structure.
+AlphaFold Server was used as the live prediction route.
+FASTA/JSON verification:
+FASTA length: 142
+JSON length: 142
+Sequences identical: True
