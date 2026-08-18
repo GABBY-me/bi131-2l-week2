@@ -1,0 +1,93 @@
+BI131-2L WEEK 2 - RESOURCE AUDIT
+
+1. OPERATING ENVIRONMENT
+
+Command:
+uname -a
+
+Output:
+[lenovo@LAPTOP-VBKLK3OC:~/bi131-2l-week2$ uname -a
+Linux LAPTOP-VBKLK3OC 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 GNU/Linux]
+
+Command:
+cat /etc/os-release
+
+Output:
+[lenovo@LAPTOP-VBKLK3OC:~/bi131-2l-week2$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo]
+
+
+2. RAM
+
+Command:
+free -h
+
+Output:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       748Mi       2.5Gi        49Mi       545Mi       3.0Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+
+3. DISK SPACE
+
+Command:
+df -h .
+
+Output:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.7G  954G   1%
+
+
+4. NVIDIA GPU
+
+Command:
+nvidia-smi
+
+Output:
+Command 'nvidia-smi' not found.
+
+Command:
+ls -l /dev/dxg
+
+Output:
+crw-rw-rw- 1 root root 10, 258 Aug 18 16:39 /dev/dxg
+
+Command:
+ls /dev | grep -E 'nvidia|dxg'
+
+Output:
+dxg
+
+Command:
+grep -i nvidia /proc/driver/nvidia/version
+
+Output:
+grep: /proc/driver/nvidia/version: No such file or directory
+
+
+5. RESOURCE INTERPRETATION
+
+The WSL2 environment has 3.7 GiB of total RAM and approximately 954 GB of available disk space. The /dev/dxg device is present, indicating that WSL2 has a GPU virtualization interface. However, nvidia-smi is not available, no NVIDIA device interface is shown under /dev, and the NVIDIA driver information is not present under /proc/driver/nvidia.
+
+Therefore, a compatible NVIDIA GPU cannot be confirmed as visible or available for AlphaFold 3 inference in the current WSL2 environment.
+
+
+6. ALPHAFOLD 3 REQUIREMENTS COMPARISON
+
+The official AlphaFold 3 documentation states that GPU resources are required for the inference stage. The current environment does not expose a usable NVIDIA GPU. The environment also has only 3.7 GiB of RAM. Although approximately 954 GB of disk space is available, the lack of a visible NVIDIA GPU and limited RAM are major limitations for running AlphaFold 3 locally.
+
+CONCLUSION
+
+Full local AlphaFold 3 inference is not appropriate on this system. The current WSL2 environment does not provide a visible compatible NVIDIA GPU, and the available RAM is limited. The available disk space is substantial but does not overcome the GPU and memory limitations.
